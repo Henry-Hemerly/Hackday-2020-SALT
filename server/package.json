@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "js-sha3": "^0.8.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2"
   }
 }

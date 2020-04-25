@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(30, 134, 165);
+    font-size: 3em;
+    margin: 30px auto 0 auto;
+    font-family: 'Black Ops One', cursive;
+    letter-spacing: 0.06em;
+    text-shadow: 1px 1px 0px 0.2 #545f6d;
+}
+
+
+.search {
+    margin: 20px auto;
+}
+
+.result {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.result p {
+    padding: 15px 20px;
+    margin-top: 35px;
+    color: rgb(0, 37, 53);
+    text-align: left;
+    border-left: 6px solid rgb(30, 134, 165);
+    border-bottom: 1px solid rgb(30, 134, 165);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.9em;
+}
+
+.headerSubtitle {
+    color: rgb(30, 134, 165);
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px auto 20px auto;
+    position: relative;
+    bottom: 20px;
+    font-weight: 800;
+}
+
+.searchInput {
+    width: 25%;
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 10px 0 0 10px;
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    background-color: rgb(30, 134, 165);
+    color: rgb(222, 228, 228);
+    border:none;
+    overflow: auto;
+}
+
+.searchButton {
+    height: 32px;
+    width: 10%;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid rgb(30, 134, 165);;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: rgb(30, 134, 165);
+    overflow: auto;
+}
+
+::placeholder {
+    color: rgb(221, 233, 237);
+}
+
+.footer {
+    margin: 20px auto;
+    font-size: 0.8em;
+    display: block;
+    font-style: italic;
+    color: rgb(0, 57, 84);
+}
